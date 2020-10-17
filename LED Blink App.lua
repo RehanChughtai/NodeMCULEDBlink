@@ -5,8 +5,8 @@ include <Hash.h>
 include <ESP8266WebServer.h>
 include <ESP8266mDNS.h>
 
-static const char ssid[] = "VM3980916";
-static const char password[] = "xcmz5qgVbjsh";
+static const char ssid[] = "Wifi Name";
+static const char password[] = "Password";
 MDNSResponder mdns;
 
 static void writeLED(bool);
